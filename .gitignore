@@ -1,0 +1,26 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Databases & Logs
+*.sqlite3
+*.db
+*.log
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter Notebook Cache
+.ipynb_checkpoints/
+
+# Environment Variables / Secrets
+.env

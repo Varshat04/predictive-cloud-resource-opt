@@ -1,0 +1,1 @@
+username- user , pass- user (for viewer)username- admin , pass- admin (for admin access)
