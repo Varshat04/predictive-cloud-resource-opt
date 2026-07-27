@@ -44,7 +44,7 @@
 
 This project follows a strict **3-Tier Decoupled Architecture**:
 
-1. **Model Layer (MLOps):** Prophet models are trained offline on Google Colab using Kaggle datasets, then serialized into binary `.pkl` files for ultra-fast, sub-millisecond inference.
+1. **Model Layer (MLOps):** Prophet models are trained offline on Google Colab using the [Cloud Computing Performance Metrics Dataset](https://www.kaggle.com/datasets/abdurraziq01/cloud-computing-performance-metrics) from Kaggle, then serialized into binary `.pkl` files for ultra-fast, sub-millisecond inference.
 2. **Controller Layer (Backend):** A Flask RESTful microservice acts as the bridge. It loads the `.pkl` files into RAM, queries the SQLite/MySQL database via SQLAlchemy, and serves JSON responses.
 3. **Presentation Layer (Frontend):** The dashboard uses `fetch()` API calls asynchronously to render predictive metrics dynamically via Chart.js.
 
@@ -53,6 +53,7 @@ This project follows a strict **3-Tier Decoupled Architecture**:
 ## 💻 Tech Stack
 
 * **Data Science & ML:** Python, Pandas, NumPy, Scikit-learn, Facebook Prophet
+* **Dataset:** [Cloud Computing Performance Metrics (Kaggle)](https://www.kaggle.com/datasets/abdurraziq01/cloud-computing-performance-metrics)
 * **Backend API:** Flask, SQLAlchemy (ORM)
 * **Frontend:** HTML5, CSS3, JavaScript (ES6), Chart.js
 * **Database:** SQLite / MySQL
@@ -76,7 +77,7 @@ This project follows a strict **3-Tier Decoupled Architecture**:
  ┃ ┣ 📜 index.html                   # Main telemetry & metrics dashboard UI
  ┃ ┗ 📜 login.html                   # User authentication & login view
  ┣ 📂 dataset/
- ┃ ┗ 📊 vmCloud_data.csv             # Raw Kaggle cloud VM telemetry dataset
+ ┃ ┗ 📊 vmCloud_data.csv             # Kaggle telemetry dataset (abdurraziq01/cloud-computing-performance-metrics)
  ┣ 📜 .gitignore                     # Git ignore rules (skips env/, users.db, etc.)
  ┣ 📜 LICENSE                        # MIT Open Source License
  ┣ 📜 README.md                      # Comprehensive project documentation
@@ -107,7 +108,6 @@ This project follows a strict **3-Tier Decoupled Architecture**:
 ## 👤 Author
 
 **Akbar Naeem**
-*Data Analyst | Financial Operations (FinOps) | AI & ML Developer*
+*Data Analyst | AI & ML Developer*
 
-* **Professional Summary:** A highly motivated professional with a BCA specializing in Data Science and Artificial Intelligence. Passionate about leveraging machine learning models, modern software architecture, and predictive analytics to drive enterprise efficiency.
 * **Connect:** [LinkedIn](https://www.linkedin.com/in/akbar-naeem) | [GitHub](https://github.com/akbar-naeem)
