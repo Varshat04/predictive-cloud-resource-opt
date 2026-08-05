@@ -151,7 +151,7 @@ This project follows a strict **3-Tier Decoupled Architecture**:
 
 ## 👤 Author
 
-**VArsha Tiwari**
+**Varsha Tiwari**
 *Data Analyst | AI & ML Developer*
 
 * **Connect:** [LinkedIn](https://www.linkedin.com/in/varshatiwari04) | [GitHub](https://github.com/Varshat04)
