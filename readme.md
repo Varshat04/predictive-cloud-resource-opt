@@ -152,7 +152,7 @@ This project follows a strict **3-Tier Decoupled Architecture**:
 
 ## 👤 Author
 
-**Akbar Naeem**
+**VArsha Tiwari**
 *Data Analyst | AI & ML Developer*
 
-* **Connect:** [LinkedIn](https://www.linkedin.com/in/akbar-naeem) | [GitHub](https://github.com/akbar-naeem)
+* **Connect:** [LinkedIn](https://www.linkedin.com/in/varshatiwari04) | [GitHub](https://github.com/Varshat04)
