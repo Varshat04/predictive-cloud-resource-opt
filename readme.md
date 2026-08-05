@@ -107,7 +107,6 @@ This project follows a strict **3-Tier Decoupled Architecture**:
 ```text
 📦 predictive-cloud-optimizer
  ┣ 📂 backend/
- ┃ ┣ 📂 env/                         # Python Virtual Environment
  ┃ ┣ 📜 app.py                       # Flask REST API server
  ┃ ┣ 📜 model_cpu.pkl                # Trained Prophet model for CPU utilization
  ┃ ┣ 📜 model_traffic.pkl            # Trained Prophet model for network traffic
