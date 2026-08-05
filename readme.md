@@ -119,6 +119,10 @@ This project follows a strict **3-Tier Decoupled Architecture**:
  ┃ ┗ 📜 login.html                   # User authentication & login view
  ┣ 📂 dataset/
  ┃ ┗ 📊 vmCloud_data.csv             # Kaggle telemetry dataset (abdurraziq01/cloud-computing-performance-metrics)
+ ┣ 📂 images/
+ ┃ ┣ 🖼️ Login Page.png               # System screenshots
+ ┃ ┣ 🖼️ Operational Hub CPU.png
+ ┃ ┗ 🖼️ ... (other UI screenshots)
  ┣ 📜 .gitignore                     # Git ignore rules (skips env/, users.db, etc.)
  ┣ 📜 LICENSE                        # MIT Open Source License
  ┣ 📜 README.md                      # Comprehensive project documentation
