@@ -10,6 +10,47 @@
 
 ---
 
+## 📸 System Interface: A Visual Walkthrough
+*We designed this platform to be as intuitive as a smart home dashboard, making complex AI and Cloud operations easy to understand for everyone, from developers to business stakeholders.*
+
+### 1. Secure Access & Authentication
+**What it does:** Ensures that only authorized personnel can access and control the core cloud infrastructure.
+<br>
+![Authentication Gateway](images/Login%20Page.png)
+
+### 2. The Operational Hub (The Main Dashboard)
+**What it does:** This is the control center. Instead of just showing what is happening *now*, it uses AI to predict what will happen in the *future*. The graphs show the AI predicting CPU, RAM, and Network Traffic spikes before they happen, allowing the system to prepare in advance.
+<br>
+![Operational Hub CPU](images/Operational%20Hub%20CPU.png)
+![Operational Hub RAM](images/Operational%20Hub%20RAM.png)
+![Operational Hub Traffic](images/Operational%20Hub%20Traffic.png)
+
+### 3. Catching "Zombie" Servers & Saving Money
+**What it does:** Sometimes servers are left running but do no actual work (costing the company money). The **Anomaly Screener** automatically acts as a security guard, finding these idle "zombie" servers and flagging them for termination. The **Watchlist** allows admins to keep a close eye on critical servers.
+<br>
+![Server Watchlist](images/Server%20Watchlist.png)
+![Anomaly Screener](images/Anomaly%20Screener.png)
+
+### 4. AI Intelligence & Automated Scheduling
+**What it does:** Shows exactly how smart the AI is (currently at ~97.3% accuracy) and displays a clear timeline of when the system plans to automatically add or remove servers based on predictions.
+<br>
+![Predictive Intel](images/Predictive%20Intel.png)
+![Forecast Schedule](images/Forecast%20Schedule.png)
+
+### 5. FinOps: Tracking The Budget
+**What it does:** The ultimate business dashboard. It tracks the current monthly cloud bill and calculates exactly how much money the AI is saving the company compared to traditional, manual server management.
+<br>
+![Cost & Billing](images/Cost%20&%20Billing.png)
+
+### 6. Manual Overrides & PDF Reports
+**What it does:** Gives human administrators the final say. If needed, they can press an "Emergency Halt" button. It also features a **Report Engine** to export all savings and server activities into clean, professional PDF reports for management meetings.
+<br>
+![System Control Panel](images/System%20Control%20Panel.png)
+![System Logs](images/System%20Logs.png)
+![PDF Export Center](images/PDF%20Export%20Center.png)
+
+---
+
 ## 📖 Table of Contents
 - [The Problem & Solution](#-the-problem--solution)
 - [Key Features](#-key-features)
